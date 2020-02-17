@@ -24,6 +24,8 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@senzing/sdk-components-ng/styles/styles.css",
+              "./node_modules/@senzing/sdk-components-ng/styles/themes/senzing.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -63,7 +65,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ng8-test1:build"
+            "browserTarget": "ng8-test1:build",
+            "proxyConfig": "proxy.conf.json"
           },
           "configurations": {
             "production": {

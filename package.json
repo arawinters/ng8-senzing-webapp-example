@@ -31,7 +31,7 @@
     "html2canvas": "^1.0.0-rc.3",
     "http-server": "^0.11.1",
     "json-query-string": "^1.0.0",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "ngx-json-viewer": "^2.4.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
